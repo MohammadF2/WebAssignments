@@ -1,0 +1,59 @@
+table {
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 1%;
+    margin: 3pt;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #999999
+}
+
+tr:nth-child(odd) {
+    background-color: #7a7a7a
+}
+
+.status-pending {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.status-shipped {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.status-Processing {
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.inSec {
+    text-align: left;
+    padding: 15px;
+}
+
+.container {
+    margin: 30pt 3pt 3pt 3pt;
+    border: 1px solid #ddd;
+}
+
+.form {
+    margin: 15pt;
+    padding: 1%;
+}

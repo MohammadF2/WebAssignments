@@ -1,0 +1,131 @@
+* {
+    text-align: center;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('back.jpg');
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header_top {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header_bottom {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+}
+.main_nav {
+    text-align: right;
+}
+.main_nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main_nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+.main_nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 2rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.title {
+    color: rgb(61, 61, 61);
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+a:checked {
+    color: white;
+}
+
+.parent {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 1080px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.child-one {
+
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    vertical-align: left;
+}
+
+.child-two {
+
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    vertical-align: right;
+}
+
+
+figure {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#footerCopy {
+    color: rgb(61, 61, 61);
+    font-size: 20px;
+}

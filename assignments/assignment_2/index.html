@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Mohammad Faraj's Assignment 2 page</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, CSS, comp334, Mohammad, assignments" />
+    <meta name="author" content="Mohammad Faraj" />
+    <link rel="stylesheet" href="../../Style/Style.css" />
+    <link rel="stylesheet" href="../../Style/ass2.css" />
+  </head>
+
+  <body>
+    <h1 class="welcome">practice HTML Forms and Tables.</h1>
+    <section>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Date</th>
+          <th>Customer</th>
+          <th>Country</th>
+          <th>Progress</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>120</td>
+          <td>Jan 12 2022</td>
+          <td>Mohammad Faraj</td>
+          <td>Palestine</td>
+          <td><progress id="bar" value="100" max="100">100%</progress></td>
+          <td><span class="status-shipped" status-Shipped”> Shipped </span></td>
+        </tr>
+        <tr>
+          <td>154</td>
+          <td>Feb 22 2022</td>
+          <td>Ramez Farhan</td>
+          <td>Jordan</td>
+          <td><progress id="bar" value="100" max="100">100%</progress></td>
+          <td><span class="status-shipped" status-Shipped”> Shipped </span></td>
+        </tr>
+        <tr>
+          <td>160</td>
+          <td>Jun 19 2022</td>
+          <td>Haleem Jofari</td>
+          <td>Palestine</td>
+          <td><progress id="bar" value="50" max="100">50%</progress></td>
+          <td>
+            <span class="status-Processing" status-Processing”>
+              Processing
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td>197</td>
+          <td>Dec 8 2022</td>
+          <td>Alaa Nafi</td>
+          <td>Egypt</td>
+          <td><progress id="bar" value="30" max="100">30%</progress></td>
+          <td><span class="status-pending" status-pending”> Pending </span></td>
+        </tr>
+        <tr>
+          <td>201</td>
+          <td>Jan 13 2023</td>
+          <td>Somaia Orfan</td>
+          <td>Soudi Arabia</td>
+          <td><progress id="bar" value="30" max="100">30%</progress></td>
+          <td><span class="status-pending" status-pending”> Pending </span></td>
+        </tr>
+      </table>
+    </section>
+
+    <div>
+      <section class="inSec">
+        <form class="form">
+          <fieldset>
+            <legend>Filter Order</legend>
+            <label for="Customer">Customer:</label>
+            <input
+              type="text"
+              id="Customer"
+              name="Customer"
+              value="Enter name"
+            /><br />
+            <label for="Country">Country:</label>
+            <select name="Country" id="Country">
+              <option value="Palestine">Palestine</option>
+              <option value="Jordan">Jordan</option>
+              <option value="Soudi Arabia">Soudi Arabia</option>
+              <option value="China">China</option>
+              <option value="Germany">Germany</option>
+              <option value="Italy">Italy</option>
+              <option value="other">other</option>
+            </select>
+          </fieldset>
+        </form>
+      </section>
+    </div>
+
+    <div>
+      <footer id="footer">
+        <p>Copyrights&copy; are reserverd for Mohammad Faraj</p>
+      </footer>
+    </div>
+  </body>
+</html>
